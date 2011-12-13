@@ -1,0 +1,126 @@
+--- !ruby/object:Gem::Specification 
+name: gelf
+version: !ruby/object:Gem::Version 
+  hash: 31
+  prerelease: 
+  segments: 
+  - 1
+  - 3
+  - 2
+  version: 1.3.2
+platform: ruby
+authors: 
+- Alexey Palazhchenko
+- Lennart Koopmann
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2011-12-02 00:00:00 Z
+dependencies: 
+- !ruby/object:Gem::Dependency 
+  name: json
+  prerelease: false
+  requirement: &id001 !ruby/object:Gem::Requirement 
+    none: false
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        hash: 3
+        segments: 
+        - 0
+        version: "0"
+  type: :runtime
+  version_requirements: *id001
+- !ruby/object:Gem::Dependency 
+  name: shoulda
+  prerelease: false
+  requirement: &id002 !ruby/object:Gem::Requirement 
+    none: false
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        hash: 3
+        segments: 
+        - 0
+        version: "0"
+  type: :development
+  version_requirements: *id002
+- !ruby/object:Gem::Dependency 
+  name: mocha
+  prerelease: false
+  requirement: &id003 !ruby/object:Gem::Requirement 
+    none: false
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        hash: 3
+        segments: 
+        - 0
+        version: "0"
+  type: :development
+  version_requirements: *id003
+description: Library to send GELF messages to Graylog2 logging server. Supports plain-text, GELF messages and exceptions.
+email: alexey.palazhchenko@gmail.com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- LICENSE
+- README.rdoc
+files: 
+- .gemtest
+- .travis.yml
+- CHANGELOG
+- LICENSE
+- README.rdoc
+- Rakefile
+- VERSION
+- benchmarks/notifier.rb
+- gelf.gemspec
+- lib/gelf.rb
+- lib/gelf/logger.rb
+- lib/gelf/notifier.rb
+- lib/gelf/ruby_sender.rb
+- lib/gelf/severity.rb
+- test/helper.rb
+- test/test_logger.rb
+- test/test_notifier.rb
+- test/test_ruby_sender.rb
+- test/test_severity.rb
+homepage: http://github.com/Graylog2/gelf-rb
+licenses: []
+
+post_install_message: 
+rdoc_options: []
+
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  none: false
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      hash: 3
+      segments: 
+      - 0
+      version: "0"
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  none: false
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      hash: 3
+      segments: 
+      - 0
+      version: "0"
+requirements: []
+
+rubyforge_project: 
+rubygems_version: 1.8.11
+signing_key: 
+specification_version: 3
+summary: Library to send GELF messages to Graylog2 logging server.
+test_files: []
+

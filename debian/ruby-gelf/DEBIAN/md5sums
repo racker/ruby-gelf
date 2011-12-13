@@ -1,0 +1,8 @@
+bf17f4bba0651b415c4589e8f8488d49  usr/lib/ruby/vendor_ruby/gelf.rb
+4096089ffadd1e8451342d9002e27f6a  usr/lib/ruby/vendor_ruby/gelf/severity.rb
+917667c46959af982f14fedebc06229d  usr/lib/ruby/vendor_ruby/gelf/notifier.rb
+9d78088305b1c2c2cb0825657df8761c  usr/lib/ruby/vendor_ruby/gelf/logger.rb
+eafb4aaa6f1c9eec0fc335fefae4756a  usr/lib/ruby/vendor_ruby/gelf/ruby_sender.rb
+ff44ad44a1be5ee573de83678bcc508d  usr/share/doc/ruby-gelf/copyright
+b688678b74a144ca961b3e22e6e2db47  usr/share/doc/ruby-gelf/changelog.gz
+13430289629c3dafdaf4707fdc4cd72b  usr/share/doc/ruby-gelf/changelog.Debian.gz

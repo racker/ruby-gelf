@@ -1,0 +1,17 @@
+Source: ruby-gelf
+Section: ruby
+Priority: optional
+Maintainer: Brandon Philips <brandon.philips@rackspace.com>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.2.2)
+Standards-Version: 3.9.1
+Homepage: http://github.com/Graylog2/gelf-rb
+XS-Ruby-Versions: all
+
+Package: ruby-gelf
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby1.8 | ruby-interpreter
+# json (>= 0), shoulda (>= 0, development), mocha (>= 0, development)
+Description: Library to send GELF messages to Graylog2 logging server.
+ Library to send GELF messages to Graylog2 logging server. Supports plain-text, GELF messages and exceptions.
